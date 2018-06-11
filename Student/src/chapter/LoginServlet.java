@@ -29,9 +29,7 @@ public class LoginServlet extends HttpServlet {
 			pw.write("ÓÃ»§ÃûÃÜÂë´íÎó£¬µÇÂ¼Ê§°Ü");
 		}
 	}
-
-	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		
 		doGet(request, response);
